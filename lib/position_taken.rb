@@ -2,9 +2,7 @@
 def position_taken?(board, index)
   if board[index] == " "
     "blorp"
-  # elsif board[index] == "X" || board[index] == "O"
-  #   true
   end
 end
 
-position_taken?([" ", " ", " ", " ", " ", " ", " ", " ", " "], 0)
+position_taken?(["1", " ", " ", " ", " ", " ", " ", " ", " "], 0)
